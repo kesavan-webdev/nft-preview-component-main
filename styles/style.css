@@ -1,5 +1,30 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 1rem;
+    margin: auto;
+    padding: 1rem;
+    background-color: hsl(216, 50%, 16%);
+}
+.card-img{
+max-width: 100%;
+height: auto;
+border-radius: 12px;
+}
+.card-title{
+    color: hsl(0, 0%, 100%);
 }
